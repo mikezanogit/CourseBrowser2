@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_animations_title">Animation course</string>
+    <string name="android_600_title">600 course</string>
+    <string name="android_602_title">602 course</string>
+    <string name="android_604_title">604 course</string>
+    <string name="android_animations_description">Learn how to animate!</string>
+    <string name="android_598_description">Learn nothing in this course!</string>
+    <string name="android_600_description">Learn 600 things!</string>
+    <string name="android_602_description">Learn distributed software</string>
+    <string name="android_604_description">Learn 604 things. :)</string>
+    <string name="android_fragments_description">Fragments course</string>
+    <string name="android_fragments_title">Fragments</string>
+    <string name="android_intents_title">Intents</string>
+    <string name="android_598_title">598</string>
+    <string name="android_intents_description">Intents and how they affect.</string>
+    <string name="android_fragments_title_short">Fragment</string>
+    <string name="android_intents_title_short">Intent</string>
+    <string name="android_animations_title_short">Animation</string>
+    <string name="android_598_title_short">598</string>
+    <string name="android_600_title_short">600</string>
+    <string name="android_602_title_short">602</string>
+    <string name="android_604_title_short">604</string>
+</resources>
