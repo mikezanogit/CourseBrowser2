@@ -31,6 +31,7 @@ public class MainActivity extends FragmentActivity {
      * {@link android.support.v4.app.FragmentStatePagerAdapter}.
      */
     //SectionsPagerAdapter mSectionsPagerAdapter;
+    CoursePagerAdapter mCoursePagerAdapter;
 
     /**
      * The {@link ViewPager} that will host the section contents.
@@ -42,19 +43,20 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Set up the action bar.
-        final ActionBar actionBar = getActionBar();
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
        // mSectionsPagerAdapter = new SectionsPagerAdapter(getFragmentManager());
 
+        //This is how the fragment knows what activity it belongs to....this
+        mCoursePagerAdapter = new CoursePagerAdapter(getSupportFragmentManager(), this);
+
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.pager);
         //mViewPager.setAdapter(mSectionsPagerAdapter);
 
-
+        mViewPager.setAdapter(mCoursePagerAdapter);
     }
 
 

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.coursebrowser2.app.CourseInfo">
+    tools:context="com.example.coursebrowser2.app.CourseInfoFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -37,7 +37,7 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewBottomIcon"
         android:src="@drawable/ic_launcher"
         android:layout_below="@+id/textViewDescription"
         android:layout_alignRight="@+id/textViewTitle"
